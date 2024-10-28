@@ -1,8 +1,4 @@
-Highlights by HTML5 UP
-html5up.net | @ajlkn
-
-@FunkeGoodVibe
-
+Highlights by HTML5 UP | html5up.net | @ajlkn
 Credits:
 
 	Demo Images:

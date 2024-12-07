@@ -1835,7 +1835,7 @@ input, select, textarea {
 			z-index: -1;
 		}
 	}
-
+]
 	html body {
 		text-decoration: none;
 	}
@@ -2749,6 +2749,7 @@ input, select, textarea {
 				display: inline-block;
 				vertical-align: middle;
 				width: 1px;
+                display: none;
 			}
 
 			.main .container .content {

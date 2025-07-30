@@ -5,6 +5,11 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Github, ExternalLink, MapPin, Clock, Users, Star, Mail, Globe } from "lucide-react"
 
+{/* https://medium.com/@jagoda11/deploying-a-react-app-with-typescript-and-github-actions-to-github-pages-93c12d6c6675
+ */}
+
+ {/* https://blog.logrocket.com/gh-pages-react-apps/ */}
+
 export default function Portfolio() {
   const projects = [
     {

@@ -63,14 +63,17 @@ export default function Portfolio() {
   ]
 
   const skills = [
-    { name: "Python", level: "Advanced" },
-    { name: "Java", level: "Advanced" },
-    { name: "JavaScript", level: "Intermediate" },
-    { name: "CSS", level: "Intermediate" },
+    { name: "Python", level: "Intermediate" },
+    { name: "Natural Language Processing", level: "Basic"},
+    { name: "Java", level: "Basic" },
+    { name: "JavaScript", level: "Basic" },
+    { name: "CSS", level: "Basic" },
     { name: "Data Analysis", level: "Intermediate" },
     { name: "Web Scraping", level: "Intermediate" },
-    { name: "Algorithm Design", level: "Advanced" },
-    { name: "GUI Development", level: "Intermediate" },
+    { name: "Algorithm Design", level: "Basic" },
+    { name: "GUI Development", level: "Basic" },
+    { name: "Game Development", level: "Basic" },
+    { name: "Canva (graphic design)", level: "Basic" },
   ]
 
   return (

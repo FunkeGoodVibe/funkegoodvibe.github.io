@@ -70,9 +70,10 @@ export default function Portfolio() {
     { name: "Data Analysis", level: "Intermediate" },
     { name: "Web Scraping", level: "Intermediate" },
     { name: "Algorithm Design", level: "Basic" },
-    { name: "GUI Development", level: "Basic" },
-    { name: "Game Development", level: "Basic" },
-    { name: "Canva (graphic design)", level: "Basic" }
+    { name: "GUI Development (PyQt5)", level: "Basic" },
+    { name: "Game Development (Godot)", level: "Basic" },
+    { name: "Graphic Design (Canva)", level: "Intermediate" },
+    { name: "Data Engineering", level: "Intermediate" }
   ]
 
   return (

@@ -67,13 +67,12 @@ export default function Portfolio() {
     { name: "Natural Language Processing", level: "Basic"},
     { name: "Java", level: "Basic" },
     { name: "JavaScript", level: "Basic" },
-    { name: "CSS", level: "Basic" },
     { name: "Data Analysis", level: "Intermediate" },
     { name: "Web Scraping", level: "Intermediate" },
     { name: "Algorithm Design", level: "Basic" },
     { name: "GUI Development", level: "Basic" },
     { name: "Game Development", level: "Basic" },
-    { name: "Canva (graphic design)", level: "Basic" },
+    { name: "Canva (graphic design)", level: "Basic" }
   ]
 
   return (

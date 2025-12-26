@@ -3,7 +3,7 @@ import Link from "next/link"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Github, ExternalLink, MapPin, Clock, Users, Star, Mail, Globe } from "lucide-react"
+import { Github, ExternalLink, MapPin, Clock, Users, Star, Mail, Globe, Linkedin } from "lucide-react"
 
 {/* https://medium.com/@jagoda11/deploying-a-react-app-with-typescript-and-github-actions-to-github-pages-93c12d6c6675
  */}
@@ -63,14 +63,15 @@ export default function Portfolio() {
   ]
 
   const skills = [
-    { name: "Python", level: "3" },
-    { name: "Natural Language Processing", level: "2"},
+    { name: "Python", level: "2" },
     { name: "Java", level: "2" },
-    { name: "SQL", level: "3" },
-    { name: "Web Scraping", level: "1" },
+    { name: "Data Engineering", level: "3" },
+    { name: "Natural Language Processing", level: "2"},
+    { name: "SQL", level: "2" },
+    { name: "Graphic Design (Canva)", level: "1" },
     { name: "GUI Development (PyQt5)", level: "2" },
-    { name: "Graphic Design (Canva)", level: "Intermediate" },
-    { name: "Data Engineering", level: "Intermediate" }
+    { name: "Web Scraping", level: "1" }
+    
   ]
 
   return (
@@ -232,10 +233,10 @@ export default function Portfolio() {
           </p>
 
           <div className="flex flex-wrap justify-center gap-4">
-            <Button asChild>
-              <Link href="mailto:contact@funkegoodvibe.dev">
-                <Mail className="mr-2 h-4 w-4" />
-                Send Email
+            <Button variant="outline" asChild>
+              <Link href="https://linkedin.com/in/funkesowole" target="_blank">
+                <Linkedin className="mr-2 h-4 w-4" />
+                Connect on LinkedIn
               </Link>
             </Button>
             <Button variant="outline" asChild>
@@ -244,6 +245,13 @@ export default function Portfolio() {
                 Follow on GitHub
               </Link>
             </Button>
+            <Button asChild>
+              <Link href="mailto:contact@funkegoodvibe.dev">
+                <Mail className="mr-2 h-4 w-4" />
+                Send Email
+              </Link>
+            </Button>
+
           </div>
         </div>
       </section>

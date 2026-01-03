@@ -63,14 +63,14 @@ export default function Portfolio() {
   ]
 
   const skills = [
-    { name: "Python", level: "2" },
-    { name: "Java", level: "2" },
-    { name: "Data Engineering", level: "3" },
-    { name: "Natural Language Processing", level: "2"},
-    { name: "SQL", level: "2" },
-    { name: "Graphic Design (Canva)", level: "1" },
-    { name: "GUI Development (PyQt5)", level: "2" },
-    { name: "Web Scraping", level: "1" }
+    { name: "Python", level: "" },
+    { name: "Java", level: "" },
+    { name: "Data Engineering", level: "" },
+    { name: "Natural Language Processing", level: ""},
+    { name: "SQL", level: "" },
+    { name: "Graphic Design (Canva)", level: "" },
+    { name: "GUI Development (PyQt5)", level: "" },
+    { name: "Web Scraping", level: "" }
     
   ]
 
